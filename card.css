@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inconsolata&family=Oswald:wght@700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&family=Source+Code+Pro:wght@500&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	font-family:  cursive;
+}
+
+.content{
+	
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	width: 950px;
+	margin: 50px auto;
+	box-shadow: 0 0 20px black;
+	border-radius: 20px;
+	position: relative;
+	background: white;
+}
+.content:hover{
+	box-shadow: 0 0 10px black;
+	transition: 3s;
+}
+
+.konten1{
+	margin: 30px;
+	width: 400px;
+}
+
+.foto img{
+	width: 200px;
+	height: 210px;
+	border-radius: 50%;
+	margin-top: 20px;
+}
+.kontak_info{
+	margin-top: 30px;
+	margin-left: 20px;
+	padding-bottom: 20px;
+}
+.kontak_info span{
+	font-size: 25px;
+	font-weight: bold;
+	color: red;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 10px;
+	font-size: 20px;
+
+
+}
+.kontak_info ul li a{
+	text-decoration: none;
+	color: rgb(46, 144, 193);
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+
+}
+.kontak_info ul li a span{
+	padding-right: 10px;
+	color:rgb(46, 144, 193);
+
+
+}
+.kontak_info ul li{
+	list-style: none;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+
+.pendidikan{
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.pendidikan span{
+	font-size: 25px;
+	font-weight: bold;
+	color: red;
+
+}
+.pendidikan h3{
+	padding: 5px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(46, 144, 193);
+
+}
+.pendidikan h4{
+	padding-bottom: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+
+}
+.pendidikan p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	color: rgb(107, 100, 100);
+	margin-top: -10px;
+}
+h5{
+	padding: 2px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+}
+.hoby{
+	margin: 30px;
+	padding-bottom: 20px;
+	margin-left: 20px;
+
+}
+.hoby span{
+	font-size: 25px;
+	font-weight: bold;
+	color: red;
+
+}.hoby .material-symbols-outlined{
+	color: rgb(46, 144, 193);
+	padding:5px;
+}
+
+.konten2{
+	position: absolute;
+	width: 500px;
+	top: 40px;
+	right: 10px;
+	
+}
+.konten2 h1{
+	font-size: 60px;
+	font-weight: bold;
+	font-family: 'Source Code Pro', monospace;
+	line-height: 55px;
+}
+.konten2{
+	font-family: 'Source Code Pro', monospace;
+	font-size: 15px;
+
+}
+
+.profil h2{
+	margin-top: 90px;
+}
+.profil p{
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 20px;
+}
+.profil span{
+	font-size: 25px;
+	font-weight: bold;
+	color: red;
+
+}
+
+.pengalaman{
+	margin-top: 30px;
+}
+
+.pengalaman h3{
+	color: rgb(46, 144, 193);
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 13px;
+}
+.pengalaman p{
+	font-size: 14px;
+	margin-left: 95px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: -20px;
+	line-height: 22px;
+}
+.pengalaman span{
+	font-size: 25px;
+	font-weight: bold;
+	color: red;
+}
+
+.keahlian{
+	margin-top: 25px;
+}
+.keahlian span{
+	font-size: 25px;
+	font-weight: bold;
+	color: red;
+}
+.keahlian h3 {
+	margin-left: 12px;
+	padding-bottom: 10px;
+}
+.keahlian .material-symbols-outlined{
+	color: rgb(46, 144, 193);
+	padding:5px;
+	border: 1px solid rgba(49, 225, 247, 0.3);
+	border-radius: 5px;
+}
+.keahlian .material-symbols-outlined:hover{
+	background: rgb(46, 144, 193);
+	color: white;
+}
+
+
+
+
+
+
+
+.content2{
+	width: 950px;
+	margin: 20px auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+	border: ;
+
+	box-sizing: border-box;
+
+	box-shadow: 0 0 20px black;
+	border-radius: 20px;
+
+}
+.box1{
+	width: 225px;
+	height: 225px;
+
+	margin: 20px;
+
+
+}
+.box1 span{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+
+}
+.box1 .material-symbols-outlined{
+	font-weight: 700px;
+	font-size: 100px;	
+	color: rgb(46, 144, 193);
+	margin: 20px  auto;
+	transition: 1s;
+}
+.box1 .material-symbols-outlined:hover{
+	transform: scale(1.3);
+
+}
+.box1 h2{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	font-family: 'Source Code Pro', monospace;
+	color: rgb(46, 144, 193);
+}
+
+
+.box2{
+	width: 225px;
+	height: 225px;
+	margin: 20px;
+}
+.box2 span{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+
+}
+.box2 .material-symbols-outlined{
+	font-weight: 700px;
+	font-size: 100px;	
+	color: rgb(46, 144, 193);
+	margin: 20px  auto;
+	transition: 1s;
+}
+.box2 .material-symbols-outlined:hover{
+	transform: scale(1.3);
+
+}
+.box2 h2{
+
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	font-family: 'Source Code Pro', monospace;
+	color: rgb(46, 144, 193);
+}
+
+.box3{
+	width: 225px;
+	height: 225px;
+
+	margin: 20px;
+}
+
+.box3 span{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+
+}
+.box3 .material-symbols-outlined{
+	font-weight: 700px;
+	font-size: 100px;	
+	color: rgb(46, 144, 193);
+	margin: 20px  auto;
+	transition: 1s;
+}
+.box3 .material-symbols-outlined:hover{
+	transform: scale(1.3);
+
+}
+.box3 h2{
+
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	font-family: 'Source Code Pro', monospace;
+	color: rgb(46, 144, 193);
+}
+.box1	a, .box2 a, .box3 a{
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+  .konten1{
+		position: static;
+
+	}
+	.foto{
+		
+		margin-left: 50px;
+	}
+		.konten2{
+		position: static;
+
+		box-sizing: border-box;
+	}
+	.nama{
+		position: absolute;
+		top: 280px;
+		left: 40px;
+	}	
+	.kontak_info{
+		margin-top: 180px;
+	}
+	.content{
+		position: relative;
+		align-items: center;
+		justify-content: center;
+		width: 435px;
+		box-sizing: border-box;
+	}
+
+
+	.profil{
+		margin-left: 20px;
+		width: 400px;
+		margin-top: -90px;
+	}
+
+	.pengalaman{
+		margin-left: 20px;
+		width: 400px;
+	}
+	.keahlian{
+		margin-left: 20px;
+		width: 400px;
+		margin-bottom: 20px;
+	}
+
+	.content2{
+		position: relative;
+		align-items: center;
+		justify-content: center;
+		width: 435px;
+		box-sizing: border-box
+	}
+
+}
+
+
